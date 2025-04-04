@@ -32,7 +32,7 @@ pub fn build(b: *std.Build) void {
         homebrew_lib,
         "-lportaudio",
     });
-    build_sound.setName("build-sound");
+    build_sound.setName("build-sound"); 
 
     // Step to build libwebcam.dylib
     const build_webcam = b.addSystemCommand(&.{
