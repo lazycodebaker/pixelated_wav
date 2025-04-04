@@ -1,7 +1,3 @@
-Here's a professional, concise, and well-structured README for your project, suitable for a GitHub repository:
-
----
-
 # Pixelated Sound
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -30,12 +26,14 @@ Before building, ensure you have the following installed:
 ## Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/yourusername/pixelated_sound.git
+   git clone https://github.com/lazycodebaker/pixelated_wav_opencv.git
    cd pixelated_sound
    ```
 
 2. Build the project:
+
    ```bash
    zig build
    ```
@@ -43,11 +41,13 @@ Before building, ensure you have the following installed:
    This compiles the C++ libraries (`libsound.dylib`, `libwebcam.dylib`) and the main executable (`pixelated_sound`).
 
 3. Run the application:
+
    ```bash
    zig build run
    ```
 
    The program will:
+
    - Open your webcam.
    - Display a pixelated feed in a window titled "Pixelated Frame".
    - Generate sound based on pixel colors.
@@ -100,6 +100,7 @@ pixelated_sound/
 ## Contributing
 
 Contributions are welcome! Please:
+
 1. Fork the repo.
 2. Create a feature branch (`git checkout -b feature/amazing-idea`).
 3. Commit your changes (`git commit -m "Add amazing idea"`).
