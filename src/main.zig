@@ -137,14 +137,6 @@ pub fn main() !void {
         std.debug.print("Height: {d}\n", .{height});
         std.debug.print("Channels: {d}\n", .{channels});
 
-        //const data = @as([*]u8, byte_ptr)[0..frame_size];
-        // make it a slice
-        // const data = @as([*]u8, byte_ptr)[0..frame_size];
-
-        // const data = @ptrCast([*]u8, byte_ptr)[0..frame_size];
-
-        //const byte_ptr = @ptrCast(*u8, @alignCast(@alignOf(u8), frame));
-
         const byte_ptr: *u8 = @ptrCast(frame);
 
         std.debug.print("Byte pointer: {p}\n", .{byte_ptr}); // Byte pointer: u8@148068000
@@ -175,17 +167,6 @@ pub fn main() !void {
                 const r_tone = try generateTone(freqs[0], DURATION, allocator);
                 const g_tone = try generateTone(freqs[1], DURATION, allocator);
                 const b_tone = try generateTone(freqs[2], DURATION, allocator);
-
-                // for (r_tone) |r_val, i| {
-                //    const avg = (r_val + g_tone[i] + b_tone[i]) / 3.0;
-                //    try tones.append(avg);
-                //}
-
-                //const tone_count = r_tone.len;
-                //for (tone_count) |i| {
-                //    const avg = (r_tone[i] + g_tone[i] + b_tone[i]) / 3.0;
-                //    try tones.append(avg);
-                //}
 
                 for (r_tone, 0..) |r_val, i| {
                     const avg = (r_val + g_tone[i] + b_tone[i]) / 3.0;
