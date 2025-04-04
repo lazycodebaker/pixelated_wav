@@ -119,8 +119,6 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-Built with ❤️ by [Your Name] on April 04, 2025.
+Built with ❤️ by Anshuman
 
----
-
-Replace `yourusername` with your GitHub username and `[Your Name]` with your actual name. This README is ready to copy-paste into your GitHub repo! Let me know if you'd like any tweaks.
+--- 
