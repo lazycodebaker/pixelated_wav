@@ -25,8 +25,3 @@ void terminate_audio()
     Pa_CloseStream(stream);
     Pa_Terminate();
 }
-
-
-// /opt/homebrew/Cellar/portaudio/19.7.0
-// clang++ -dynamiclib -o lib/libsound.dylib cpp/sound.cpp -Ilib -I/opt/homebrew/include -L/opt/homebrew/lib -lportaudio
-// clang++ -dynamiclib -o lib/libwebcam.dylib cpp/webcam.cpp -Ilib -I/opt/homebrew/include -L/opt/homebrew/lib -lportaudio  `pkg-config --cflags --libs opencv4`
