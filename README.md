@@ -116,6 +116,3 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 - [Zig](https://ziglang.org/) for a modern, safe systems programming language.
 - [OpenCV](https://opencv.org/) for computer vision capabilities.
 - [PortAudio](http://www.portaudio.com/) for cross-platform audio I/O.
-
----
---- 
