@@ -28,7 +28,7 @@ Before building, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/lazycodebaker/pixelated_wav_opencv.git
+   git clone https://github.com/lazycodebaker/pixelated_wav.git
    cd pixelated_sound
    ```
 
