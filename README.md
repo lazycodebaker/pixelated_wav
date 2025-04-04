@@ -118,7 +118,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 - [PortAudio](http://www.portaudio.com/) for cross-platform audio I/O.
 
 ---
-
-Built with ❤️ by Anshuman
-
 --- 
