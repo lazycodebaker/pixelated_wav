@@ -194,7 +194,7 @@ pub fn main() !void {
             break;
         }
     }
-    // webcam.release_camera();
+    webcam.release_camera();
 
     try writeWav("output.wav", all_samples.items);
     std.debug.print("Wrote WAV file with {d} samples.\n", .{all_samples.items.len});
